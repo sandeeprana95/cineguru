@@ -8,11 +8,6 @@ export const COLLECTION_ROUTE = "/admin/collection-history";
 export const OTP_ROUTE = "/admin/otps";
 
 
-
-
-
-
-
 export const VENDOR_ROUTE ="/admin/vendor"
 export const SUPER_ADMIN_ROUTE ="/admin/super-admin"
 export const ADMIN_ROUTE ="/admin/admin"

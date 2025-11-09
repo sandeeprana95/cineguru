@@ -1,4 +1,24 @@
+import { Link, useLocation } from "react-router-dom"
 const Header = () => {
+      const location = useLocation()
+
+    const menus = [
+        {
+            name: "Home",
+            href: "/home",
+            icon: "ri-home-smile-2-line"
+        },
+        {
+            name: "About Us",
+            href: "/about-us",
+            icon: "ri-information-line"
+        },
+        {
+            name: "Contact Us",
+            href: "/contact-us",
+            icon: "ri-phone-line"
+        }
+    ]
     return (
         <header>
             <nav className="bg-white py-2 md:px-10 px-4 h-24 shadow-md flex items-center justify-between transition-all duration-300" >
